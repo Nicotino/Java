@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-weight: 5px;
+	font-family: Alfhabet;
+}
+
+nav{
+	background-color: #3C2262;
+	margin: auto;
+	height: 8vh;
+	display: flex;
+    justify-content: center;
+}
+body{
+	background: linear-gradient(#BEFFF0, #0064FF);
+	min-height: 100vh;
+}
+article{
+	display: flex;
+    justify-content: center;
+}
+
+article section h1{
+	font-family: 'Britannic';
+}
+
+.form{
+	margin: 5px;
+	width: 300px;
+	height: 40px;
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.button{
+	display: inline-block;	
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+}
+
+ul li{
+	margin-top: 5px;
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+}
+
+ul li input button{
+	margin-top: 5px;
+	display: inline-block;	
+	width: 200px;
+	height: 30px;
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+}
